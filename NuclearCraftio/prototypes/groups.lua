@@ -1,21 +1,35 @@
 local groups = {
  {
   type = "item-group",
-  name = "nuclear_fuels",
+  name = "nuclear_goodies",
+  order = "y",
+  icon = "__NuclearCraftio__/graphics/item-group/fuels.png",
+  icon_size = 64,
+ }, {
+  type = "item-group",
+  name = "pellets",
   order = "zx",
-  icon = "__Nucleario__/graphics/item-group/fuels.png",
+  icon = "__NuclearCraftio__/graphics/item-group/fuels.png",
+  icon_size = 64,
+ },
+
+ {
+  type = "item-group",
+  name = "nuclear_fuels",
+  order = "zy",
+  icon = "__NuclearCraftio__/graphics/item-group/fuels.png",
   icon_size = 64,
  },
  {
   type = "item-group",
   name = "depleted_nuclear_fuels",
-  order = "zy",
-  icon = "__Nucleario__/graphics/item-group/fuels.png",
+  order = "zz",
+  icon = "__NuclearCraftio__/graphics/item-group/fuels.png",
   icon_size = 64,
  }
 }
 
-local fuels = {thorium="a",uranium="b",plutonium="c",neptunium="d",berkelium="e",curcium="f",americium="g",californium="h",misc="z"}
+local fuels = {thorium="a",uranium="b",plutonium="c",neptunium="d",berkelium="e",curium="f",americium="g",californium="h",mixed="z"}
 
 for fuel,order in pairs(fuels) do
   groups[#groups+1] = {
@@ -31,5 +45,4 @@ for fuel,order in pairs(fuels) do
     order = order
   }
 end
-
 data:extend(groups)
