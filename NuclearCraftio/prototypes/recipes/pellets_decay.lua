@@ -20,13 +20,13 @@ local decays = {
 local data_extension = {}
 for inp,out in pairs(decays) do
   data_extension[#data_extension+1] = {
-    type = "repice",
+    type = "recipe",
     name = "decay_"..inp,
-    ingredients = {inp,1},
+    ingredients = {{inp,1}},
     enabled = true,
     energy_required = 2,
     result = out
   }
 end
--- last commit 1 month yeet
+
 data:extend(data_extension)

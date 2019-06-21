@@ -4,99 +4,99 @@ local fuels = { --fuels.name / raw_tint / depleted_tint / energy / subgroup / or
   raw_tint = {r=0.197,g=0.197,b=0.197}, -- Todo: Change outline color to gray
   energy = "5MJ"
  },{
-  name = "uranium_heu_233",
+  name = "uranium_he_233",
   raw_tint = {r=0.091,g=0.276,b=0.114},
   energy = "5MJ"
  },{
-  name = "uranium_heu_235",
+  name = "uranium_he_235",
   raw_tint = {r=0.052,g=0.25,b=0.065},
   energy = "5MJ"
  },{
-  name = "uranium_leu_233",
+  name = "uranium_le_233",
   raw_tint = {r=0.132,g=0.236,b=0.145},
   energy = "5MJ"
  },{
-  name = "uranium_leu_235",
+  name = "uranium_le_235",
   raw_tint = {r=0.135,g=0.244,b=0.14},
   energy = "5MJ"
  },{
-  name = "plutonium_hep_239",
+  name = "plutonium_he_239",
   raw_tint = {r=0.609,g=0.601,b=0.601}, -- Todo: Color black lining into an light grey color
   energy = "5MJ"
  },{
-  name = "plutonium_hep_241",
+  name = "plutonium_he_241",
   raw_tint = {r=0.635,g=0.632,b=0.64}, -- Todo: Same as plutonium_hep_239
   energy = "5MJ"
  },{
-  name = "plutonium_lep_239",
+  name = "plutonium_le_239",
   raw_tint = {r=0.763,g=0.768,b=0.776}, -- Todo: The whole texture needs to be grayed out more,including the lining
   energy = "5MJ"
  },{
-  name = "plutonium_lep_241",
+  name = "plutonium_le_241",
   raw_tint = {r=0.726,g=0.726,b=0.726}, -- Todo: Same as plutonium_lep_239
   energy = "5MJ"
  },{
-  name = "neptunium_hen_236",
+  name = "neptunium_he_236",
   raw_tint = {r=0.065,g=0.325,b=0.354},
   energy = "5MJ"
  },{
-  name = "neptunium_len_236",
+  name = "neptunium_le_236",
   raw_tint = {r=0.096,g=0.208,b=0.218},
   energy = "5MJ"
  },{
-  name = "berkelium_heb_248",
+  name = "berkelium_he_248",
   raw_tint = {r=0.478,g=0.153,b=0},
   energy = "5MJ"
  },{
-  name = "berkelium_leb_248",
+  name = "berkelium_le_248",
   raw_tint = {r=0.341,g=0.14,b=0.075},
   energy = "5MJ"
  },{
-  name = "curium_hec_243",
+  name = "curium_he_243",
   raw_tint = {r=0.26,g=0.098,b=0.273},
   energy = "5MJ"
  },{
-  name = "curium_hec_245",
+  name = "curium_he_245",
   raw_tint = {r=0.263,g=0.057,b=0.273},
   energy = "5MJ"
  },{
-  name = "curium_hec_247",
+  name = "curium_he_247",
   raw_tint = {r=0.244,g=0.078,b=0.234},
   energy = "5MJ"
  },{
-  name = "curium_lec_243",
+  name = "curium_le_243",
   raw_tint = {r=0.231,g=0.132,b=0.234},
   energy = "5MJ"
  },{
-  name = "curium_lec_245",
+  name = "curium_le_245",
   raw_tint = {r=0.221,g=0.14,b=0.234},
   energy = "5MJ"
  },{
-  name = "curium_lec_247",
+  name = "curium_le_247",
   raw_tint = {r=0.223,g=0.127,b=0.234},
   energy = "5MJ"
  },{
-  name = "americium_hea_242",
+  name = "americium_he_242",
   raw_tint = {r=0.302,g=0.229,b=0.046},
   energy = "5MJ"
  },{
-  name = "americium_lea_242",
+  name = "americium_le_242",
   raw_tint = {r=0.268,g=0.216,b=0.148},
   energy = "5MJ"
  },{
-  name = "californium_hec_249",
+  name = "californium_he_249",
   raw_tint = {r=0.304,g=0.007,b=0.075},
   energy = "5MJ"
  },{
-  name = "californium_hec_251",
+  name = "californium_he_251",
   raw_tint = {r=0.304,g=0.031,b=0.111},
   energy = "5MJ"
  },{
-  name = "californium_lec_249",
+  name = "californium_le_249",
   raw_tint = {r=0.283,g=0.031,b=0.096},
   energy = "5MJ"
  },{
-  name = "californium_lec_251",
+  name = "californium_le_251",
   raw_tint = {r=0.283,g=0.026,b=0.028},
   energy = "5MJ"
  },

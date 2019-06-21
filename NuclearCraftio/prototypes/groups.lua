@@ -18,14 +18,14 @@ local groups = {
   name = "nuclear_fuels",
   order = "zy",
   icon = "__NuclearCraftio__/graphics/item-group/fuels.png",
-  icon_size = 64,
+  icon_size = 128,
  },
  {
   type = "item-group",
   name = "depleted_nuclear_fuels",
   order = "zz",
-  icon = "__NuclearCraftio__/graphics/item-group/fuels.png",
-  icon_size = 64,
+  icon = "__NuclearCraftio__/graphics/item-group/depleted_fuels.png",
+  icon_size = 128,
  }
 }
 
