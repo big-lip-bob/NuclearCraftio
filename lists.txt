@@ -1,0 +1,31 @@
+-- FUELS --
+thorium_tbu
+uranium_he_233     uranium_he_235     uranium_le_233     uranium_le_235
+plutonium_he_239   plutonium_he_241   plutonium_le_239   plutonium_le_241
+neptunium_he_236   neptunium_le_236
+berkelium_he_248   berkelium_le_248
+curium_he_243      curium_he_245      curium_he_247      curium_le_243      curium_le_245      curium_le_247
+americium_he_242   americium_le_242
+californium_he_249 californium_he_251 californium_le_249 californium_le_251 
+mixed_239_oxide    mixed_241_oxide
+-- ----- --
+
+-- PELLETS --
+th-230 th-232
+u-233  u-235  u-238
+pu-239 pu-241 pu-242
+np-236 np-237 
+bk-247 bk-248 
+cm-243 cm-245 cm-246 cm-247
+am-241 am-242 am-243
+cf-249 cf-250 cf-251 cf-252
+-- ------- --
+
+-- KEYWORDS --
+
+PELLETS SEPARATOR = -
+SPACE = _
+OXYDE
+REPICE TYPO = RECIPE
+
+-- ------- --

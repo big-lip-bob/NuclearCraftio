@@ -5,7 +5,7 @@
     "author": "Bob, DaComputerNerd and pino2001",
     "contact": "https://discord.gg/YSxuwty",
     "homepage": "https://discord.gg/YSxuwty",
-    "factorio_version": "0.17",
-    "dependencies": ["base >= 0.17"],
-    "description": "In work"
+    "factorio_version": "1.0",
+    "dependencies": ["base >= 1.0"],
+    "description": "W.I.P"
 }

@@ -1,0 +1,2 @@
+-- Initializes whenever a save is loaded
+-- TODO : add reactor world boot logic
