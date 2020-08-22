@@ -3,14 +3,14 @@ local groups = {
   type = "item-group",
   name = "nuclear_goodies",
   order = "y",
-  icon = "__NuclearCraftio__/graphics/item-group/placeholder.png",
-  icon_size = 64,
+  icon = "__NuclearCraftio__/graphics/item-group/missingno.png",
+  icon_size = 32,
  }, {
   type = "item-group",
   name = "nuclear_pellets",
   order = "zx",
-  icon = "__NuclearCraftio__/graphics/item-group/placeholder.png",
-  icon_size = 64,
+  icon = "__NuclearCraftio__/graphics/item-group/missingno.png",
+  icon_size = 32,
  },
 
  {
