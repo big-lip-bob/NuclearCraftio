@@ -6,10 +6,11 @@
 -- script.on_load(f) -- save loaded or connected -- Note game or rendering is not availaible -- rly bruh
 
 local reactors,bindings = require("scripts.helpers").init_return(global,"fission_reactors","fission_map")
-
+local roed = script.register_on_entity_destroyed
 script.on_event(defines.events.on_built_entity, function(event)
-  local id = script.register_on_entity_destroyed(event.created_entity)
-  game.print("A reactor wall was placed on tick " .. event.tick .. " with destruction ID : " .. id)
+  local entity = event.created_entity
+  roed(entity)
+  
 end,{{filter="name", name = "fission_casing_wall"},{filter="name", name = "fission_controller"}})
 
 -- dismantled by a player or by force, for any reason its being removed from the world
